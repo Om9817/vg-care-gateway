@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['"Inter"', '"Segoe UI"', 'system-ui', 'sans-serif'],
+        display: ['"Plus Jakarta Sans"', '"Inter"', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +50,21 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        medical: {
+          blue: "hsl(var(--medical-blue))",
+          "blue-light": "hsl(var(--medical-blue-light))",
+        },
+        trust: {
+          green: "hsl(var(--trust-green))",
+          "green-light": "hsl(var(--trust-green-light))",
+        },
+        warm: {
+          orange: "hsl(var(--warm-orange))",
+          "orange-light": "hsl(var(--warm-orange-light))",
+        },
+        premium: {
+          gold: "hsl(var(--premium-gold))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
